@@ -1,4 +1,5 @@
 - Objetivo
+
 Implementar, usando a linguagem Java, o jogo da senha.
 Jogo da senha
 Segundo a Wikipedia, o jogo da senha (Mastermind) foi criado por Mordechai Meirowitz. Consistia
@@ -9,6 +10,7 @@ Para tanto, a cada tentativa, o desafiador informava ao desafiado quantos pinos 
 correta e quantos faziam parte da senha mas estavam em posição equivocada.
 
 - Implementação
+
 Como será utilizada interface de texto, ao invés de cores serão usados números (de 1 a 6) para
 compor a senha de quatro dígitos.
 A senha deve ser gerada aleatoriamente pelo programa.
@@ -18,6 +20,7 @@ A cada tentativa, o programa deve informar a quantidade de números corretos em 
 a quantidade de números corretos (ou seja que fazem parte da senha) em posição equivocada.
 
 Exemplo:
+
 Senha correta: 1 1 3 5
 Tentativa 1: 1 1 1 1
 Dígitos corretos: 2
