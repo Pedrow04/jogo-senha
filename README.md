@@ -22,12 +22,20 @@ a quantidade de números corretos (ou seja que fazem parte da senha) em posiçã
 Exemplo:
 
 Senha correta: 1 1 3 5
+
 Tentativa 1: 1 1 1 1
+
 Dígitos corretos: 2
+
 Dígitos deslocados: 0
+
 Tentativa 2: 1 1 2 3
+
 Dígitos corretos: 2
+
 Dígitos deslocados: 1
+
 E assim sucessivamente.
+
 O jogo termina quando o jogador desafiado acerta a senha, sendo portanto vencedor, ou quando
 terminam as dez tentativas, sendo vencedor o computador.
