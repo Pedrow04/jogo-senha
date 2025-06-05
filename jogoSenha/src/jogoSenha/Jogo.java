@@ -75,10 +75,11 @@ public class Jogo {
     }
     
     public static void mostrar(int[] v, String nome) {
+    	
         System.out.print(nome + ": ");
         
-        for (int num : v) {
-            System.out.print(num + " ");
+        for (int i = 0; i < v.length; i++) {
+            System.out.print(v[i] + " ");
         }
         System.out.println();
     }
